@@ -20,6 +20,7 @@ public class ButtonSetting : MonoBehaviour
     {
         Debug.Log("MouseExit!!");
         _ButtonBackImage.SetActive(false);
+        
     }
     public void OnSetumei ()
     {

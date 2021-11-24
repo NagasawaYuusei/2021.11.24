@@ -9,15 +9,29 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     //GameStart_"MainScene"にシーン遷移
-    public void ChangeGameStart() 
+    public void ChangeGameStart()
     {
-        SceneManager.LoadScene("MainScene");
         Debug.Log("ゲームスタート");
+        SceneManager.LoadScene("MainScene");
+    }
+    //ResultScene_"ResultScene"にシーン遷移
+    public void ChangeResultScene()
+    {
+        Debug.Log("リザルト表示");
+        SceneManager.LoadScene("ResultScene");
     }
     //TitleScene_"TitleScene"にシーン遷移
     public void ChangeTitleScene()
     {
-        SceneManager.LoadScene("TitleScene");
         Debug.Log("タイトルシーンに戻る");
+        SceneManager.LoadScene("TitleScene");
     }
+
+    //ゲーム終了
+    public void GameExit()
+    {
+        Debug.Log("ゲーム終了");
+       Application.Quit();
+    }
+
 }

@@ -28,6 +28,7 @@ public class ButtonSetting : MonoBehaviour
     }
     public void OnSetumeiExit()
     {
+        _ButtonBackImage.SetActive(false);
         _SetumeiImage.SetActive(false);
     }
 }

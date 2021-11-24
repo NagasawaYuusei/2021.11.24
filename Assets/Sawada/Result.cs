@@ -11,15 +11,14 @@ public class Result : MonoBehaviour
     ScoreManager scoreManager = default;
     static int beforeResult;
     int maxScore = 999999999;
-    int moneyResult;
-    float scoreChangeInterval = 0.5f;
+    int moneyResult = 0;
+    float scoreChangeInterval = 1f;
     // Start is called before the first frame update
     void Start()
     {
         scoreManager = GetComponent<ScoreManager>();
-        moneyResult = scoreManager.moneyScore;
         int tempScore = moneyResult; 
-        moneyResult = Mathf.Min(moneyResult + moneyResult, maxScore);
+        moneyResult = Mathf.Min(moneyResult + scoreManager.moneyScore, maxScore);
         if (tempScore != maxScore)
         {
             DOTween.To(() => tempScore,
@@ -36,5 +35,4 @@ public class Result : MonoBehaviour
         }
         else if (moneyResult <= beforeResult) newRecord.enabled = false;
     }
-
 }

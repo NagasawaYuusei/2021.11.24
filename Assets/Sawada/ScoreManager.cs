@@ -14,6 +14,7 @@ public class ScoreManager : MonoBehaviour
     {
         scoerText.color = new Color(1, 1, 1, 1);
         gameManager = GetComponent<GameManager>();
+        live = true;
     }
 
     void Update()

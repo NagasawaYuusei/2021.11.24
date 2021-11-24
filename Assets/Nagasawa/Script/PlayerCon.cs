@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerCon : MonoBehaviour
 {
@@ -36,8 +34,6 @@ public class PlayerCon : MonoBehaviour
         {
             m_jumpCount = 0;
         }
-
-        Debug.Log(isGround());
     }
 
     void Jump()

@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 6202148}
   - component: {fileID: 6202149}
   - component: {fileID: 6202147}
+  - component: {fileID: 6202150}
   m_Layer: 0
   m_Name: PlayerNull
   m_TagString: Untagged
@@ -219,6 +220,31 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
+--- !u!114 &6202150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6202145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5636f37a8967d6545a00393cb4b8e68c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_getMoneys: 01000000010000000a0000000a0000000a0000000a000000320000003200000064000000
+  m_oneSecondGet: 10
+  m_timeMoney: 1
+  m_moneyObject:
+  - {fileID: 1167112816693079088, guid: cf89d39b5f6e9174b970cacf9e4c7830, type: 3}
+  - {fileID: 7832720920651807385, guid: bd1adcc6aadc00947ace1af9ddcd2d72, type: 3}
+  - {fileID: 4176587673261757486, guid: 85be6219aebb1144e803c14d41c4340c, type: 3}
+  - {fileID: 1318503085420708391, guid: 963880c2da1307c44b14b021dcdecc97, type: 3}
+  - {fileID: 7625561142183518132, guid: 7eaa6f8d2fd8547429b0e4cd972b42b3, type: 3}
+  - {fileID: 5452304529161393200, guid: 3a944ced19ddd6b42a4d865f7d4cc31a, type: 3}
+  - {fileID: 6813260092715357364, guid: 6a7147a7807f68040ac64e539de1c4eb, type: 3}
+  - {fileID: 4746271822218730624, guid: c0483e83084fa9f4982bcd204fd6ddf6, type: 3}
+  - {fileID: 8605384012293493052, guid: b7a49107bd558e842a8fe670e6f12e89, type: 3}
 --- !u!4 &86428381 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7275720654628679083, guid: cf89d39b5f6e9174b970cacf9e4c7830,
@@ -320,6 +346,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
+    - target: {fileID: 6482537821283938618, guid: cf89d39b5f6e9174b970cacf9e4c7830,
+        type: 3}
+      propertyPath: InitialModule.startRotation.scalar
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7275720654628679083, guid: cf89d39b5f6e9174b970cacf9e4c7830,
         type: 3}
       propertyPath: m_RootOrder
@@ -373,6 +404,11 @@ PrefabInstance:
     - target: {fileID: 7275720654628679083, guid: cf89d39b5f6e9174b970cacf9e4c7830,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8361139785672967329, guid: cf89d39b5f6e9174b970cacf9e4c7830,
+        type: 3}
+      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

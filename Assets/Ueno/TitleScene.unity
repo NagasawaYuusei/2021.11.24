@@ -386,6 +386,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ButtonBackImage: {fileID: 1606832777}
   _SetumeiImage: {fileID: 58355485}
+  _audio1: {fileID: 916053468}
+  _audio2: {fileID: 216770904}
+--- !u!82 &216770904 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 292289550455491913, guid: c7ccc29cbfde630458c34bdc40d47b3f,
+    type: 3}
+  m_PrefabInstance: {fileID: 292289550391108625}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &367390434
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,7 +696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.86430573, b: 0.11792451, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -726,6 +734,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ButtonBackImage: {fileID: 947173138}
   _SetumeiImage: {fileID: 0}
+  _audio1: {fileID: 216770904}
+  _audio2: {fileID: 216770904}
 --- !u!114 &761910154 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1460668873333672882, guid: 1464967d4ea4e10458a5989c3ff9a940,
@@ -1051,6 +1061,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ButtonBackImage: {fileID: 367390434}
   _SetumeiImage: {fileID: 0}
+  _audio1: {fileID: 916053468}
+  _audio2: {fileID: 216770904}
 --- !u!114 &911385443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1088,6 +1100,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 911385438}
   m_CullTransparentMesh: 0
+--- !u!82 &916053468 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 292289550012070349, guid: c7ccc29cbfde630458c34bdc40d47b3f,
+    type: 3}
+  m_PrefabInstance: {fileID: 292289550391108625}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &947173138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,6 +1369,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ButtonBackImage: {fileID: 1875035817}
   _SetumeiImage: {fileID: 58355485}
+  _audio1: {fileID: 916053468}
+  _audio2: {fileID: 216770904}
 --- !u!1 &1008620214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1420,7 +1440,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Title
+  m_Text: "\u92AD\u8D70\n-ZENISOU-"
 --- !u!222 &1008620217
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2053,6 +2073,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089265422}
   m_CullTransparentMesh: 0
+--- !u!1001 &292289550391108625
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 292289551170613186, guid: c7ccc29cbfde630458c34bdc40d47b3f,
+        type: 3}
+      propertyPath: m_Name
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 292289551170613189, guid: c7ccc29cbfde630458c34bdc40d47b3f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 292289551170613189, guid: c7ccc29cbfde630458c34bdc40d47b3f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 266.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 292289551170613189, guid: c7ccc29cbfde630458c34bdc40d47b3f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 292289551170613189, guid: c7ccc29cbfde630458c34bdc40d47b3f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292289551170613189, guid: c7ccc29cbfde630458c34bdc40d47b3f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 292289551170613189, guid: c7ccc29cbfde630458c34bdc40d47b3f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292289551170613189, guid: c7ccc29cbfde630458c34bdc40d47b3f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292289551170613189, guid: c7ccc29cbfde630458c34bdc40d47b3f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292289551170613189, guid: c7ccc29cbfde630458c34bdc40d47b3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292289551170613189, guid: c7ccc29cbfde630458c34bdc40d47b3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292289551170613189, guid: c7ccc29cbfde630458c34bdc40d47b3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c7ccc29cbfde630458c34bdc40d47b3f, type: 3}
 --- !u!1001 &1896917679789494626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2060,6 +2149,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1460668873333672882, guid: 1464967d4ea4e10458a5989c3ff9a940,
+        type: 3}
+      propertyPath: _audio1
+      value: 
+      objectReference: {fileID: 916053468}
     - target: {fileID: 1460668873333672882, guid: 1464967d4ea4e10458a5989c3ff9a940,
         type: 3}
       propertyPath: _ButtonBackImage
